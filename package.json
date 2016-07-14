@@ -1,0 +1,19 @@
+{
+  "name": "simple-api-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "Simple API using NodeJS and MongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Zuqueto",
+  "license": "MIT"
+}
