@@ -12,6 +12,21 @@ Configure o arquivo **config.js** localizado na pasta config com a porta desejad
 
 * npm start
 
+## Recursos
+
+```JS
+    user = {
+        name: 'Douglas Zuqueto',
+        email: 'douglas.zuqueto@gmail.com'
+    };
+````
+
+ * GET /user
+ * POST /user
+ * GET /user/:id
+ * PUT /user/:id
+ * DELETE /user/:id
+
 ## Referências Utilizadas
 
  * https://github.com/caio-ribeiro-pereira/node-api-examples
