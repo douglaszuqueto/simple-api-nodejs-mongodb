@@ -4,9 +4,7 @@ module.exports = (req, res) => {
 
     let id = req.params.id;
 
-    Repository.update(id, req.body, function (data) {
-        res.json(data);
-    });
+    Repository.update(id, req.body, (data) => res.json(data));
 
 };
 
