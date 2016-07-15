@@ -8,6 +8,6 @@ module.exports = (app) => {
     /**
      * User
      */
-    app.use('/user', require('./user/user'));
+    app.use('/users', require('./user/user'));
 
 };
