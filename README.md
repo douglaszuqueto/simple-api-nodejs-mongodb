@@ -23,6 +23,7 @@ email: 'douglas.zuqueto@gmail.com'
 ```
 
  * GET /users
+ 
  ```json
  {
    "data": {
@@ -38,6 +39,7 @@ email: 'douglas.zuqueto@gmail.com'
  }
  ```
  * POST /users
+
  ```json
  {
    "data": {
@@ -51,6 +53,7 @@ email: 'douglas.zuqueto@gmail.com'
  }
  ```
  * GET /users/:id
+
  ```json
  {
    "data": {
@@ -64,6 +67,7 @@ email: 'douglas.zuqueto@gmail.com'
  }
  ```
  * PUT /users/:id
+
  ```json
  {
    "data": {
@@ -77,6 +81,7 @@ email: 'douglas.zuqueto@gmail.com'
  }
  ```
  * DELETE /users/:id
+ 
  ```json
  {
    "status": true
