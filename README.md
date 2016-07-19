@@ -16,8 +16,8 @@ Configure o arquivo **config.js** localizado na pasta config com a porta desejad
 
 ## Rodando o projeto em Containers Docker
 * Requisitos
-    * Ter o Docker instalado (Link)[https://docs.docker.com/engine/installation/]
-    * Ter o Docker Compose instalado (Link)[https://docs.docker.com/compose/install/]
+    * Ter o Docker instalado [Link](https://docs.docker.com/engine/installation/)
+    * Ter o Docker Compose instalado [Link](https://docs.docker.com/compose/install/)
 * Para rodar o projeto(**Primeira Vez**)
     * docker-compose up. **OBS**: Na primeira vez demorará um pouco para iniciar o projeto, pois as imagens serão baixadas do Docker Hub
 * Iniciar o projeto
