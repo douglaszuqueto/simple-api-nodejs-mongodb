@@ -1,0 +1,23 @@
+# Simples API utilizando NodeJS e MongoDB
+
+# NodeJS App
+web:
+ image: douglaszuqueto/alpine-nodejs:6.3.0
+ container_name: api-nodejs
+ ports:
+  - 3000:3000
+ volumes:
+  - .:/app
+ links:
+  - mongodb
+ command: npm start
+
+
+# MongoDB
+mongodb:
+ image: douglaszuqueto/alpine-mongodb:3.2.7
+ container_name: api-mongodb
+ ports:
+  - 27017:27017
+ volumes:
+  - mongodb-data:/data/db

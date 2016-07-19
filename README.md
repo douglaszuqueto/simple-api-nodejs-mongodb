@@ -10,9 +10,22 @@
 
 Configure o arquivo **config.js** localizado na pasta config com a porta desejada para rodar o servidor web e também a **uri** do MongoDB
 
-## Rodando o Projeto
+## Rodando o Projeto Localmente
 
 * npm start
+
+## Rodando o projeto em Containers Docker
+* Requisitos
+    * Ter o Docker instalado (Link)[https://docs.docker.com/engine/installation/]
+    * Ter o Docker Compose instalado (Link)[https://docs.docker.com/compose/install/]
+* Para rodar o projeto(**Primeira Vez**)
+    * docker-compose up. **OBS**: Na primeira vez demorará um pouco para iniciar o projeto, pois as imagens serão baixadas do Docker Hub
+* Iniciar o projeto
+    * docker-compose start
+* Parar o projeto
+    * docker-compose stop
+* Remover os Conteiners
+    * docker-compose rm
 
 ## Recursos
 
@@ -92,3 +105,5 @@ email: 'douglas.zuqueto@gmail.com'
 
  * https://github.com/caio-ribeiro-pereira/node-api-examples
  * https://github.com/Webschool-io/be-mean-instagram
+ * [Imagem MongoDB Alpine](https://hub.docker.com/r/mvertes/alpine-mongo/)
+ * [Imagem NodeJS Alpine](https://hub.docker.com/r/mhart/alpine-node/)
