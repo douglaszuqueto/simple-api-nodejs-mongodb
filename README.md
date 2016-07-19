@@ -28,7 +28,7 @@ Configure o arquivo **config.js** localizado na pasta config com a porta desejad
     * docker-compose rm
 
 ## Recursos
-
+* URL base: seuIP:3000
 * Dados de Entrada no Formulário
 ```
 name: 'Douglas Zuqueto',
